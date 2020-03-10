@@ -20,7 +20,7 @@ perl PTC_predictor [ROWNMUBER] [FIELD]
 Locus: chr[n]:[position] <br>
 Muttypes: INS, DEL, SNP <br>
 Mutsubtypes: Frameshift, In_Frame, Nonsense, SNP, None, Undef <br>
-Mutchange: [n] or [-n] <br>
+Mutchange: [n] <br>
 
 ## Run in parallel
 Clone git and provide input file with rownumbers and field information conisiting of locus, muttype, mutsubtpye, mutchange (see above)
