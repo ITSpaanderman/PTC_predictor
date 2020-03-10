@@ -27,7 +27,7 @@ Clone git and provide input file with rownumbers and field information conisitin
 ````shell
 git clone https://github.com/ITSpaanderman/PTC_predictor.git
 cd ./PTC_predictor
-cat [input_file.tsv] | parallel --colsep '\t' PTC_predictor.pl {1} {2} > [output_file.tsv]
+cat [input_file.csv] | parallel --colsep ',' PTC_predictor.pl {1} {2} > [output_file.tsv]
 ````
 
 ## Test
